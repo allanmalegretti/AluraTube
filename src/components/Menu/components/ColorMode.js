@@ -1,7 +1,7 @@
 import React from "react";
 
 export const ColorModeContext = React.createContext({
-    mode: "dark",
+    mode: "",
     setMode: () => { alert("Você precisa me configurar primeiro!")  },
     toggleMode: () => { alert("Você precisa me configurar primeiro!")  },
 });
